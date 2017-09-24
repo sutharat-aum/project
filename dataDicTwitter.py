@@ -1,7 +1,5 @@
 import json
 import operator
-import re
-
 
 FILE_NAME = 'text_emotion_happy70'
 wordCounter = {}
