@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4479489-91eb-4679-9759-c2b95a4c3eb4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love/text_emotion_love.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love/text_emotion_love30" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love/text_emotion_love70" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/text_emotion_happy.txt" afterPath="$PROJECT_DIR$/happiness/text_emotion_happy.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/text_emotion_happy30" afterPath="$PROJECT_DIR$/happiness/text_emotion_happy30" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/text_emotion_happy70" afterPath="$PROJECT_DIR$/happiness/text_emotion_happy70" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/word_happy70.json" afterPath="$PROJECT_DIR$/happiness/word_happy70.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/word_happy70_gen.json" afterPath="$PROJECT_DIR$/happiness/word_happy70_gen.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/word_happy_full.json" afterPath="$PROJECT_DIR$/happiness/word_happy_full.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/word_happy_full_gen" afterPath="$PROJECT_DIR$/happiness/word_happy_full_gen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boredom/text_emotion_boredom.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boredom/text_emotion_boredom30" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/boredom/text_emotion_boredom70" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fun/text_emotion_fun.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fun/text_emotion_fun30" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fun/text_emotion_fun70" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hate/text_emotion_hate.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hate/text_emotion_hate30" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hate/text_emotion_hate70" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/love/word_love70.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sadness/text_emotion_sadness.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sadness/text_emotion_sadness30" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sadness/text_emotion_sadness70" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/project.iml" afterPath="$PROJECT_DIR$/.idea/project.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataDicTwitter.py" afterPath="$PROJECT_DIR$/dataDicTwitter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/love/text_emotion_love.txt" afterPath="$PROJECT_DIR$/love/text_emotion_love.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/love/text_emotion_love70" afterPath="$PROJECT_DIR$/love/text_emotion_love70" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +31,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dataDicTwitter.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dataDicTwitter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataDicTwitter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="58" column="38" lean-forward="false" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+            <state relative-caret-position="323">
+              <caret line="58" column="36" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="word_hate70.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hate/word_hate70.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text_emotion_hate.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hate/text_emotion_hate.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="1324" column="0" lean-forward="true" selection-start-line="927" selection-start-column="0" selection-end-line="1324" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text_emotion_hate70" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hate/text_emotion_hate70">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="985">
+              <caret line="926" column="140" lean-forward="false" selection-start-line="926" selection-start-column="140" selection-end-line="926" selection-end-column="140" />
               <folding />
             </state>
           </provider>
@@ -54,16 +93,28 @@
         <option value="$PROJECT_DIR$/testDic" />
         <option value="$PROJECT_DIR$/testDic.txt" />
         <option value="$PROJECT_DIR$/testDataDic.py" />
-        <option value="$PROJECT_DIR$/love/text_emotion_love.txt" />
-        <option value="$PROJECT_DIR$/love/text_emotion_love70" />
         <option value="$PROJECT_DIR$/love/text_emotion_love30" />
+        <option value="$PROJECT_DIR$/love/text_emotion_love70" />
+        <option value="$PROJECT_DIR$/love/text_emotion_love.txt" />
+        <option value="$PROJECT_DIR$/fun/text_emotion_fun.txt" />
+        <option value="$PROJECT_DIR$/fun/text_emotion_fun70" />
+        <option value="$PROJECT_DIR$/fun/text_emotion_fun30" />
+        <option value="$PROJECT_DIR$/sadness/text_emotion_sadness.txt" />
+        <option value="$PROJECT_DIR$/sadness/text_emotion_sadness70" />
+        <option value="$PROJECT_DIR$/sadness/text_emotion_sadness30" />
+        <option value="$PROJECT_DIR$/boredom/text_emotion_boredom.txt" />
+        <option value="$PROJECT_DIR$/boredom/text_emotion_boredom70" />
+        <option value="$PROJECT_DIR$/boredom/text_emotion_boredom30" />
+        <option value="$PROJECT_DIR$/hate/text_emotion_hate.txt" />
+        <option value="$PROJECT_DIR$/hate/text_emotion_hate70" />
+        <option value="$PROJECT_DIR$/hate/text_emotion_hate30" />
         <option value="$PROJECT_DIR$/dataDicTwitter.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="892" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -98,13 +149,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-1.0.1/resources/app/git/cmd/git.exe" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\BRAVE\Documents\GitHub\project\hate" />
+      <recent name="C:\Users\BRAVE\Documents\GitHub\project\boredom" />
+      <recent name="C:\Users\BRAVE\Documents\GitHub\project\sadness" />
+      <recent name="C:\Users\BRAVE\Documents\GitHub\project\fun" />
       <recent name="C:\Users\BRAVE\Documents\GitHub\project\love" />
-      <recent name="C:\Users\BRAVE\Documents\GitHub\project" />
-      <recent name="C:\Users\BRAVE\Documents\GitHub\project\happiness" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -160,8 +213,8 @@
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.testDataDic" />
-        <item index="1" class="java.lang.String" itemvalue="Python.dataDicTwitter" />
+        <item index="0" class="java.lang.String" itemvalue="Python.dataDicTwitter" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testDataDic" />
       </list>
     </recent_temporary>
   </component>
@@ -184,9 +237,10 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20863836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23343849" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -197,7 +251,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -211,30 +264,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/happiness/text_emotion_happy70">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/happiness/word_happy70.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66589">
-          <caret line="3917" column="1" lean-forward="false" selection-start-line="3917" selection-start-column="1" selection-end-line="3917" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/happiness/word_happy70_gen.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2890">
-          <caret line="170" column="11" lean-forward="false" selection-start-line="170" selection-start-column="11" selection-end-line="170" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/happiness/text_emotion_happy.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -353,29 +382,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/happiness/word_happy70.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66589">
-          <caret line="3917" column="1" lean-forward="false" selection-start-line="3917" selection-start-column="1" selection-end-line="3917" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/happiness/word_happy_full.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/happiness/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/happiness/word_happy_full_gen">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/getTwitter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-612">
@@ -394,14 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/happiness/text_emotion_happy.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/happiness/text_emotion_happy30">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-357">
@@ -412,40 +411,210 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/love/text_emotion_love30">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
+        <state relative-caret-position="282">
           <caret line="1151" column="134" lean-forward="false" selection-start-line="1151" selection-start-column="134" selection-end-line="1151" selection-end-column="134" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/love/text_emotion_love.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="3817" column="23" lean-forward="false" selection-start-line="2690" selection-start-column="0" selection-end-line="3841" selection-end-column="134" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/happiness/word_happy70_gen.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="170" column="11" lean-forward="false" selection-start-line="170" selection-start-column="11" selection-end-line="170" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/love/text_emotion_love70">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="2668" column="81" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2689" selection-end-column="82" />
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/love/text_emotion_love.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/happiness/word_happy_full.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107269">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/happiness/word_happy_full_gen">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/happiness/word_happy70_gen.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3434">
+          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/happiness/text_emotion_happy.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/happiness/word_happy70.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="3917" column="1" lean-forward="false" selection-start-line="3917" selection-start-column="1" selection-end-line="3917" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fun/text_emotion_fun30">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fun/text_emotion_fun70">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="1242" column="90" lean-forward="false" selection-start-line="1242" selection-start-column="90" selection-end-line="1242" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fun/text_emotion_fun.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="1777" column="0" lean-forward="true" selection-start-line="1243" selection-start-column="0" selection-end-line="1777" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sadness/text_emotion_sadness.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="5165" column="28" lean-forward="true" selection-start-line="3615" selection-start-column="0" selection-end-line="5165" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sadness/text_emotion_sadness30">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="3615" column="82" lean-forward="false" selection-start-line="3615" selection-start-column="82" selection-end-line="3615" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sadness/text_emotion_sadness70">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61438">
+          <caret line="3614" column="82" lean-forward="false" selection-start-line="3614" selection-start-column="82" selection-end-line="3614" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/love/word_love70.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="0" column="1298" lean-forward="false" selection-start-line="0" selection-start-column="1298" selection-end-line="0" selection-end-column="1298" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fun/word_fun70.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5134">
+          <caret line="0" column="42215" lean-forward="false" selection-start-line="0" selection-start-column="42215" selection-end-line="0" selection-end-column="42215" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sadness/word_sadness70.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boredom/text_emotion_boredom70">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="125" column="92" lean-forward="false" selection-start-line="125" selection-start-column="92" selection-end-line="125" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boredom/text_emotion_boredom.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="180" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boredom/text_emotion_boredom30">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boredom/word_boredom70.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hate/text_emotion_hate30">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hate/text_emotion_hate70">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="985">
+          <caret line="926" column="140" lean-forward="false" selection-start-line="926" selection-start-column="140" selection-end-line="926" selection-end-column="140" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hate/text_emotion_hate.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="1324" column="0" lean-forward="true" selection-start-line="927" selection-start-column="0" selection-end-line="1324" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataDicTwitter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="58" column="38" lean-forward="false" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
+        <state relative-caret-position="323">
+          <caret line="58" column="36" lean-forward="false" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hate/word_hate70.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
