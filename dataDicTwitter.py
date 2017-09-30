@@ -1,7 +1,7 @@
 import json
 import operator
 
-FILE_NAME = 'hate/text_emotion_hate70'
+FILE_NAME = 'fun/text_emotion_fun70'
 wordCounter = {}
 
 
@@ -56,7 +56,7 @@ with open(FILE_NAME, 'r') as fh:
             # json.dump(data, fp)
 
 
-    writeToJSONFile('./', 'word_hate70', data)
+    writeToJSONFile('./', 'word_fun70', data)
 
 
 fh.close()
