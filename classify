@@ -1,0 +1,47 @@
+from textblob.classifiers import NaiveBayesClassifier
+from textblob import TextBlob
+
+train = [
+    ('mmm much better day... so far! its still quite early. last day of #uds', 'happy'),
+    ('I spilled my beer all over my leg. Wasted half my beer.  Home now. I met a cute girl. Good conversation.', 'happy'),
+    ('FB is boring   and i wanna sing RIGHT NOW..! *-*', 'happy'),
+    ('good lord, just seen the agency work for our upcoming Open Day. Money for Jam', 'happy'),
+    ('What an awesome view', 'happy'),
+    ('so carlie came over and she fell asleep on me', 'happy'),
+    ('ouch... head hurts', 'sed'),
+    ('I need a friend right now  , I feel like mmmm ... sosad', 'sed'),
+    ('I miss you', 'sed'),
+    ("oh...my foot's hurting now. About 5 minutes after I took it out though.", 'sed'),
+    ('Almost made it to reading comedy outlet. Headlining all weekend. Only took me 2 extra hours with traffic. Basically doubled my time.', 'sed')
+]
+test = [
+    ('Ok, other then my shoe, the club is cool. Its fun, and its poppin except 4 the ppl tryna dance wit me', 'happy'),
+    ('Damn. Its raining again', 'sed'),
+    ("@allyycase suuure", 'happy'),
+    ("I'm too tired", 'sed'),
+    ('Gary is a friend of mine.', 'happy'),
+    ("I wanna watch &quot;UP&quot; so badly!", 'sed')
+]
+
+cl = NaiveBayesClassifier(train)
+
+# Classify some text
+print(cl.classify("so carlie came over and she fell asleep on me"))  # "happy"
+print(cl.classify("my head is hurting.."))   # "sed"
+
+
+# Classify a TextBlob
+# blob = TextBlob("The beer was amazing. But the hangover was horrible. "
+#                 "My boss was not pleased.", classifier=cl)
+# print(blob)
+# print(blob.classify())
+#
+# for sentence in blob.sentences:
+#     print(sentence)
+#     print(sentence.classify())
+
+# Compute accuracy
+print("Accuracy: {0}".format(cl.accuracy(test)))
+
+# Show 5 most informative features
+cl.show_informative_features(5)
