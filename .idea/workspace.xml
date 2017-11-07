@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4479489-91eb-4679-9759-c2b95a4c3eb4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Match.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classify" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classify2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/worry/test.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boredom/text_emotion_boredom.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boredom/text_emotion_boredom30" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boredom/text_emotion_boredom70" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boredom/word_boredom70.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/boredom/word_boredom70_gen.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataDicTwitter.py" afterPath="$PROJECT_DIR$/dataDic/dataDicTwitter.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataDicTwitter2.py" afterPath="$PROJECT_DIR$/dataDic/dataDicTwitter2.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataDicTwitter3.py" afterPath="$PROJECT_DIR$/dataDic/dataDicTwitter3.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Match.py" afterPath="$PROJECT_DIR$/dataDic/Match.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/getTwitter.py" afterPath="$PROJECT_DIR$/dataDic/getTwitter.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/rest.py" afterPath="$PROJECT_DIR$/dataDic/rest.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/happiness/word_happiness70_gen.json" afterPath="$PROJECT_DIR$/happiness/word_happiness70_gen.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classify2.py" afterPath="$PROJECT_DIR$/classify2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,26 +17,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="classify" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classify">
+      <file leaf-file-name="classify2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/classify2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="-1071">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
-                <element signature="e#0#53#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#2799#2814#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classify2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/classify2.py">
+      <file leaf-file-name="classify" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classify">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="157">
+              <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text_emotion_happiness30" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/happiness/text_emotion_happiness30">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2992">
+              <caret line="176" column="16" lean-forward="false" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text_emotion_sadness30" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sadness/text_emotion_sadness30">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60401">
+              <caret line="3553" column="22" lean-forward="false" selection-start-line="3553" selection-start-column="1" selection-end-line="3553" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -53,18 +63,8 @@
       <file leaf-file-name="text_emotion_happiness70" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/happiness/text_emotion_happiness70">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1064">
-              <caret line="2953" column="43" lean-forward="true" selection-start-line="2953" selection-start-column="43" selection-end-line="2953" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/worry/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="50201">
+              <caret line="2953" column="43" lean-forward="false" selection-start-line="2953" selection-start-column="43" selection-end-line="2953" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -73,8 +73,8 @@
       <file leaf-file-name="dataDicTwitter3.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dataDic/dataDicTwitter3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            <state relative-caret-position="1224">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -93,7 +93,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>invited</find>
       <find>not</find>
       <find>feel</find>
       <find>really</find>
@@ -123,6 +122,7 @@
       <find>1</find>
       <find>htt</find>
       <find>hurting</find>
+      <find>sed</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,8 +179,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
+    <option name="x" value="472" />
+    <option name="width" value="901" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectView">
@@ -198,8 +198,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -217,6 +217,11 @@
               <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="happiness" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="sadness" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -228,16 +233,16 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\BRAVE\Documents\GitHub\project\worry" />
-      <recent name="C:\Users\BRAVE\Documents\GitHub\project\boredom" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\BRAVE\Documents\GitHub\project\dataDic" />
       <recent name="C:\Users\BRAVE\Documents\GitHub\project\fun" />
       <recent name="C:\Users\BRAVE\Documents\GitHub\project\happiness" />
       <recent name="C:\Users\BRAVE\Documents\GitHub\project\hate" />
       <recent name="C:\Users\BRAVE\Documents\GitHub\project\love" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\BRAVE\Documents\GitHub\project\worry" />
+      <recent name="C:\Users\BRAVE\Documents\GitHub\project\boredom" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -265,7 +270,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="project" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Match.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\BRAVE\Documents\GitHub\project\dataDic\Match.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -370,13 +375,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15812592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2429022" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35015774" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -387,7 +393,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -398,7 +404,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Match.py</url>
+          <url>file://$PROJECT_DIR$/dataDic/Match.py</url>
           <line>20</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -419,7 +425,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/classify2.py</url>
-          <line>76</line>
+          <line>83</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
@@ -428,13 +434,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fun/text_emotion_fun30">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boredom/text_emotion_boredom70" />
     <entry file="file://$PROJECT_DIR$/boredom/text_emotion_boredom.txt" />
     <entry file="file://$PROJECT_DIR$/boredom/text_emotion_boredom30" />
@@ -554,7 +553,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rest.py">
+    <entry file="file://$PROJECT_DIR$/dataDic/rest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
@@ -597,20 +596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sadness/text_emotion_sadness30">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="3508" column="0" lean-forward="false" selection-start-line="3508" selection-start-column="0" selection-end-line="3508" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/happiness/text_emotion_happiness30">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="75" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sadness/word_sadness70_gen.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -650,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="5152" column="32" lean-forward="false" selection-start-line="5152" selection-start-column="32" selection-end-line="5152" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="915" column="72" lean-forward="false" selection-start-line="915" selection-start-column="1" selection-end-line="915" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,29 +656,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-338">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getTwitter.py">
+    <entry file="file://$PROJECT_DIR$/dataDic/getTwitter.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Match.py">
+    <entry file="file://$PROJECT_DIR$/dataDic/Match.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
@@ -704,56 +674,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.json">
+    <entry file="file://$PROJECT_DIR$/test.json" />
+    <entry file="file://$PROJECT_DIR$/dataDic/dataDicTwitter3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-493">
-          <caret line="0" column="1914" lean-forward="false" selection-start-line="0" selection-start-column="1914" selection-end-line="0" selection-end-column="1914" />
+        <state relative-caret-position="1224">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/happiness/text_emotion_happiness30">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2992">
+          <caret line="176" column="16" lean-forward="false" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sadness/text_emotion_sadness30">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60401">
+          <caret line="3553" column="22" lean-forward="false" selection-start-line="3553" selection-start-column="1" selection-end-line="3553" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worry/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/happiness/text_emotion_happiness70">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="2953" column="43" lean-forward="true" selection-start-line="2953" selection-start-column="43" selection-end-line="2953" selection-end-column="43" />
+        <state relative-caret-position="50201">
+          <caret line="2953" column="43" lean-forward="false" selection-start-line="2953" selection-start-column="43" selection-end-line="2953" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/textblob/classifiers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="96" column="48" lean-forward="true" selection-start-line="96" selection-start-column="48" selection-end-line="96" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classify">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataDic/dataDicTwitter3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/worry/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="157">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classify2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        <state relative-caret-position="-1071">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#2799#2814#0" expanded="false" />
           </folding>
         </state>
       </provider>
