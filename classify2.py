@@ -4,6 +4,8 @@ from textblob.classifiers import NaiveBayesClassifier
 from textblob import TextBlob
 import operator
 import string
+import numpy as np
+from sklearn.metrics import accuracy_score
 
 FILE_NAME_pos = 'happiness/text_emotion_happiness70'
 FILE_NAME_neg = 'sadness/text_emotion_sadness70'
@@ -21,6 +23,7 @@ def processTweet(tweet):
 def process(FILE_NAME_pos,FILE_NAME_neg):
     with open(FILE_NAME_pos, 'r') as fh, open(FILE_NAME_neg, 'r') as fd:
         train = []
+
         for line_pos in fh:
             line_pos = fh.readline()
             processedTweet = processTweet(line_pos)
@@ -158,8 +161,10 @@ cl = NaiveBayesClassifier(train)
 # print(cl.classify("just watched BGT on catch up, aw i felt so sorry for holly"))   # "sad"
 # print(cl.classify("Is going to sleep now"))   # "sad"
 
+
 for temp in test[:10]:
-    print("acc :"+temp[1]+" result :"+ cl.classify(temp[0]))
+        print (accuracy_score(np.array[temp[1], cl.classify(temp[0])]))
+#     print("acc :"+temp[1]+" result :"+ cl.classify(temp[0]))
 
 
 # print("Accuracy: {0}".format(cl.accuracy(test)))
