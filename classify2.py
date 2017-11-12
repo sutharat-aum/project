@@ -161,10 +161,17 @@ cl = NaiveBayesClassifier(train)
 # print(cl.classify("just watched BGT on catch up, aw i felt so sorry for holly"))   # "sad"
 # print(cl.classify("Is going to sleep now"))   # "sad"
 
+acc = 0
+for temp in test:
+    a = cl.classify(temp[0])
+    # print("acc :" + temp[1] + " result :" + a)
+    # print(a==temp[1])
+    if temp[1]==a:
+        acc = acc+1
 
-for temp in test[:10]:
-        print (accuracy_score(np.array[temp[1], cl.classify(temp[0])]))
-#     print("acc :"+temp[1]+" result :"+ cl.classify(temp[0]))
+print(acc/test.__len__())
+#         print (accuracy_score(np.array[temp[1], cl.classify(temp[0])]))
+
 
 
 # print("Accuracy: {0}".format(cl.accuracy(test)))
