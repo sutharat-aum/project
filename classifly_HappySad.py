@@ -4,7 +4,7 @@ from textblob.classifiers import NaiveBayesClassifier
 
 FILE_NAME = ['happiness/text_emotion_happiness70','sadness/text_emotion_sadness70']
 emotion = ['happiness','sadness']
-FILE_NAME_test = ['happiness/text_emotion_happiness30','sadness/text_emotion_sadness30']
+FILE_NAME_test = ['dataDic/Output']
 def processTweet(tweet):
     tweet = tweet.lower()
     tweet = re.sub('((www\.[^\s]+)|(https?://[^\s]+))', 'URL', tweet)
@@ -17,10 +17,10 @@ def process(FILE_NAME,emotion):
     train = []
     for i in range(0,len(FILE_NAME)):
         with open(FILE_NAME[i], 'r') as fh:
-            for line_pos in fh:
-                line_pos = fh.readline()
-                processedTweet = processTweet(line_pos)
-                word_list_pos = processedTweet.replace(',', '') \
+            for line in fh:
+                line = fh.readline()
+                processedTweet = processTweet(line)
+                word_list = processedTweet.replace(',', '') \
                     .replace('@', '') \
                     .replace('#', '') \
                     .replace(';', '') \
@@ -41,7 +41,7 @@ def process(FILE_NAME,emotion):
                     .replace(']', '') \
                     .replace('URL', '') \
                     .replace('AT_USER', '')
-                sentence = (word_list_pos, emotion[i])
+                sentence = (word_list, emotion[i])
                 train.append(sentence)
         fh.close()
     return train
@@ -55,10 +55,24 @@ for temp in test:
     a = cl.classify(temp[0])
     if temp[1]==a:
         acc = acc+1
+        print("acc :" + temp[1] + " sen : " + temp[0] + " >>>True>>> " + " result :" + a)
     else:
-        print("acc :" + temp[1] +" sen : "+ temp[0] +" ------- "+" result :" + a)
+        print("acc :" + temp[1] +" sen : "+ temp[0] +" ---False--- "+" result :" + a)
 
 print(acc/test.__len__())
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # print("Accuracy: {0}".format(cl.accuracy(test)))
 # cl.show_informative_features(5)

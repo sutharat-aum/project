@@ -2,9 +2,9 @@ import re
 from textblob.classifiers import NaiveBayesClassifier
 
 
-FILE_NAME = ['fun/text_emotion_fun70','worry/text_emotion_worry70']
-emotion = ['fun','worry']
-FILE_NAME_test = ['fun/text_emotion_fun30','worry/text_emotion_worry30']
+FILE_NAME = ['happiness/text_emotion_happiness70','sadness/text_emotion_sadness70']
+emotion = ['happiness','sadness']
+FILE_NAME_test = ['happiness/text_emotion_happiness30','sadness/text_emotion_sadness30']
 def processTweet(tweet):
     tweet = tweet.lower()
     tweet = re.sub('((www\.[^\s]+)|(https?://[^\s]+))', 'URL', tweet)

@@ -78,7 +78,7 @@ def main():
 
     print("\n\n 20 top tweets:")
     for tweet in tweets[:30]:
-        print(tweet)
+        print(">>>"+tweet)
 
     # # picking positive tweets from tweets
     # ptweets = [tweet for tweet in tweets if tweet['sentiment'] == 'positive']
