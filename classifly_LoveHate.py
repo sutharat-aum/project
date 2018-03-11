@@ -40,7 +40,65 @@ def process(FILE_NAME,emotion):
                     .replace('[', '') \
                     .replace(']', '') \
                     .replace('URL', '') \
-                    .replace('AT_USER', '')
+                    .replace('AT_USER', '') \
+                    .replace('i ', '') \
+                    .replace('you ', '') \
+                    .replace('we ', '') \
+                    .replace('they ', '') \
+                    .replace('he ', '') \
+                    .replace('she ', '') \
+                    .replace('it ', '') \
+                    .replace('me ', '') \
+                    .replace('you ', '') \
+                    .replace('us ', '') \
+                    .replace('them ', '') \
+                    .replace('him ', '') \
+                    .replace('her ', '') \
+                    .replace('my ', '') \
+                    .replace('your ', '') \
+                    .replace('our ', '') \
+                    .replace('their ', '') \
+                    .replace('his ', '') \
+                    .replace('hes ', '') \
+                    .replace('its ', '') \
+                    .replace('and ', '') \
+                    .replace('but ', '') \
+                    .replace('nor ', '') \
+                    .replace('so ', '') \
+                    .replace('for ', '') \
+                    .replace('yet ', '') \
+                    .replace('or ', '') \
+                    .replace('is ', '') \
+                    .replace('am ', '') \
+                    .replace('are ', '') \
+                    .replace('was ', '') \
+                    .replace('were ', '') \
+                    .replace('have ', '') \
+                    .replace('has ', '') \
+                    .replace('had ', '') \
+                    .replace('do ', '') \
+                    .replace('does ', '') \
+                    .replace('did ', '') \
+                    .replace('will ', '') \
+                    .replace('would ', '') \
+                    .replace('shall ', '') \
+                    .replace('should ', '') \
+                    .replace('can ', '') \
+                    .replace('could ', '') \
+                    .replace('may ', '') \
+                    .replace('might ', '') \
+                    .replace('must ', '') \
+                    .replace('need ', '') \
+                    .replace('dare ', '') \
+                    .replace('ought to ', '') \
+                    .replace('used to ', '') \
+                    .replace('what ', '') \
+                    .replace('when ', '') \
+                    .replace('whenever ', '') \
+                    .replace('whether ', '') \
+                    .replace('while ', '') \
+                    .replace('how ', '') \
+                    .replace('why ', '')
                 sentence = (word_list_pos, emotion[i])
                 train.append(sentence)
         fh.close()
@@ -55,7 +113,7 @@ for temp in test:
     a = cl.classify(temp[0])
     if temp[1]==a:
         acc = acc+1
-        # print("acc :" + temp[1] + " sen : " + temp[0] + " >>>True>>> " + " result :" + a)
+        print("acc :" + temp[1] + " sen : " + temp[0] + " >>>True>>> " + " result :" + a)
     else:
         print("acc :" + temp[1] +" sen : "+ temp[0] +" ---False--- "+" result :" + a)
 

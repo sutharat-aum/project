@@ -1,8 +1,8 @@
 import re
 from textblob.classifiers import NaiveBayesClassifier
 
-FILE_NAME = ['happiness/text_emotion_happiness70', 'sadness/text_emotion_sadness70','fun/text_emotion_fun70', 'worry/text_emotion_worry70','love/text_emotion_love70', 'hate/text_emotion_hate70']
-emotion = ['happiness', 'sadness','fun', 'worry','love', 'hate']
+
+
 FILE_NAME_test = ['dataDic/Output']
 def processTweet(tweet):
     tweet = tweet.lower()
@@ -196,14 +196,35 @@ def process_test(FILE_NAME_test):
         fh.close()
     return test
 
+def start_train():
+    FILE_NAME = ['happiness/text_emotion_happiness70', 'sadness/text_emotion_sadness70','fun/text_emotion_fun70','worry/text_emotion_worry70','love/text_emotion_love70','hate/text_emotion_hate70']
+    emotion = ['happiness', 'sadness','fun','worry','love','hate']
+    train = process(FILE_NAME, emotion)
+    cl = NaiveBayesClassifier(train)
+    return cl
 
-train = process(FILE_NAME, emotion)
-test = process_test(FILE_NAME_test)
-cl = NaiveBayesClassifier(train)
+def classify_String(inputString):
+    input = process_test(inputString)
+    train.classify(input)
+    return input
 
-for temp in test:
-    a = cl.classify(temp)
-    print(" sen : " + temp + " result :" + a)
+def classify_list(inputList):
+    list = []
+    test = process_test(inputList)
+    for temp in test:
+        a = train.classify(test)
+        list.append(a)
+        print(" sen : " + temp + " result :" + a)
+    return list
+
+train = start_train()
+# classify_Str = classify_String("Reading my book in the sunshine, goona be a good day")
+list = classify_list(FILE_NAME_test)
+print (list)
+
+
+
+
 
 # print("Accuracy: {0}".format(cl.accuracy(test)))
 # cl.show_informative_features(5)

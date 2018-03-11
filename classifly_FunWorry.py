@@ -55,7 +55,7 @@ for temp in test:
     a = cl.classify(temp[0])
     if temp[1]==a:
         acc = acc+1
-        # print("acc :" + temp[1] + " sen : " + temp[0] + " >>>True>>> " + " result :" + a)
+        print("acc :" + temp[1] + " sen : " + temp[0] + " >>>True>>> " + " result :" + a)
     else:
         print("acc :" + temp[1] +" sen : "+ temp[0] +" ---False--- "+" result :" + a)
 

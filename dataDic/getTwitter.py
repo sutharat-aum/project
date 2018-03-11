@@ -37,7 +37,7 @@ class twitterClient(object):
     def getSearchTweets(self, query,type='search', count=200):
         tweets = []
 
-        # startDate = datetime.datetime(2018, 2, 10, 0, 0, 0)g
+        # startDate = datetime.datetime(2018, 2, 10, 0, 0, 0)
         # endDate = datetime.datetime(2018, 2, 14, 0, 0, 0)
 
         try:
@@ -64,7 +64,7 @@ def main():
 
 
     api = twitterClient()
-    tweets = api.getSearchTweets(query='SuperBowl', count=500)
+    tweets = api.getSearchTweets(query='#SuperBowl2018', count=500)
     # print("\n\n 10 top tweets:\n\n")
     for tweet in tweets:
         # print(">>>>>>   "+tweet+"\n")
@@ -73,7 +73,7 @@ def main():
         with io.open("Output", "w", encoding="utf-8") as f:
             for i in range(0, len(twwrite)):
                 # print(str(i)+">>>"+twwrite[i])
-                f.write(str(i) + ">>>" + twwrite[i]+"\n")
+                f.write('"'+ twwrite[i]+'"'+"\n")
                 #f.write('"'+(twwrite[i])+'"' + "\n")
                 data = (list(twwrite))
 
